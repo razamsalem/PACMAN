@@ -50,7 +50,7 @@ table {
 }
 
 .modal2 {
-  background: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url(/img/pacman-modal.png);
+  background: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url(../img/pacman-modal.png);
   background-size: cover;
   background-position: center;
   position: absolute;
