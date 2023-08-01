@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+table {
+  margin: auto;
+}
+
+.wall {
+  background-color: blue !important; 
+  color: transparent;
+}
+
+.h2-color {
+  color: yellow;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.cell img {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  background: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url(../img/pacman-modal.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  color: yellow;
+  top: 250px;
+  left: 535px;
+  padding: 5px;
+  width: 300px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.modal2 {
+  background: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url(/img/pacman-modal.png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  color: yellow;
+  top: 250px;
+  left: 500px;
+  padding: 5px;
+  width: 400px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.modal2 button{
+  cursor: pointer;
+  background-color: black;
+  color: yellow;
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+
+.modal2 button:hover {
+  background-color: yellow;
+  color: black;
+  font-weight: 600;
+}
+
+.modal button {
+  cursor: pointer;
+  background-color: black;
+  color: yellow;
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+
+.modal button:hover {
+  background-color: yellow;
+  color: black;
+  font-weight: 600;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
